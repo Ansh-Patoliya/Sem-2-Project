@@ -5,6 +5,14 @@ public class Demo {
             System.out.println("Current number: " + i);
             Thread.sleep(1000); // Sleep for 1 second
         }
+
+        int i = 0;
+        while(true){
+            System.out.println("Dharmil"+i);
+            if(i== 5) break;
+            i++;
+            //
+        }
         System.out.println("factorial of 6 is " + factorial(6, 1));
     }
 
