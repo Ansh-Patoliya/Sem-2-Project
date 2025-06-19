@@ -13,5 +13,11 @@ public class Demo {
             i++;
             //
         }
+        System.out.println("factorial of 6 is " + factorial(6, 1));
+    }
+
+    public static int factorial (int n,int ans) {
+        if(n==1) return ans;
+        return factorial(n-1, ans*n);
     }
 }
