@@ -5,7 +5,7 @@ public class Demo {
             System.out.println("Current number: " + i);
             Thread.sleep(1000); // Sleep for 1 second
         }
-        System.out.println(factorial(6, 1));
+        System.out.println("factorial of 6 is " + factorial(6, 1));
     }
 
     public static int factorial (int n,int ans) {
