@@ -1,24 +1,25 @@
 public class Demo {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Hello, World!");
-        System.out.println("Testing");
+        System.out.println("Demo update");
+        System.out.println("---------------------");
         for (int i = 0; i < 10; i++) {
             System.out.println("Current number: " + i);
             Thread.sleep(1000); // Sleep for 1 second
         }
 
         int i = 0;
-        while(true){
-            System.out.println("Dharmil"+i);
-            if(i== 5) break;
+        while (true) {
+            System.out.println("Dharmil" + i);
+            if (i == 5) break;
             i++;
             //
         }
         System.out.println("factorial of 6 is " + factorial(6, 1));
     }
 
-    public static int factorial (int n,int ans) {
-        if(n==1) return ans;
-        return factorial(n-1, ans*n);
+    public static int factorial(int n, int ans) {
+        if (n == 1) return ans;
+        return factorial(n - 1, ans * n);
     }
 }
