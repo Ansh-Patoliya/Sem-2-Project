@@ -10,6 +10,7 @@ public class Demo {
         while(true){
             System.out.println("Dharmil"+i);
             if(i== 5) break;
+            i++;
         }
     }
 }
